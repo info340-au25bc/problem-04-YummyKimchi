@@ -1,0 +1,41 @@
+body {
+    margin: .5rem;
+    background-color: #93b8d7;
+    color:white;
+    font-family: 'Kaushan Script', 'fantasy';
+}
+
+div a {
+    color: white;
+    size: 2.5rem;
+    padding-right: 0.5em;
+}
+
+#social-links {
+    display: none;
+}
+
+main {
+    align-self: center;
+    text-align: center;
+    margin-top: 23%;
+}
+
+h1 {
+    font-size: 4rem;
+}
+
+h2 {
+    font-size: 2rem;
+    margin-top: 2em;
+}
+
+footer {
+    display: none;
+}
+
+@media (min-width: 598px) {
+    #social-links {
+        display: inline-block;
+    }
+}
